@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Leonardo Sánchez Covarrubias">
+    <meta name="description" content="Portafolio personal de Leonardo Sánchez Covarrubias, proyectos y e intereses.">
+    <meta name="keywords" content="Leonardo Sánchez Covarrubias, web, html, páginas, manga, videojuegos">
+    <title>Leonardo Sánchez | Portafolio personal</title>
+    <link rel="shortcut icon" href="img/faviconper.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body style="background-image: url(img/fondoGotico.jpg); background-size: cover; background-position: center; background-attachment: fixed;">
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-personal">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Leonardo Sánchez Covarrubias</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#menu-principal" aria-controls="menu-principal"
+                    aria-expanded="false" aria-label="Abrir navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu-principal">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link" href="#inicio" aria-current="page">Inicio</a>
+                        <a class="nav-link" href="#manga">Manga</a>
+                        <a class="nav-link" href="#videojuegos">Videojuegos</a>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="container py-5">
+            <h1>Una pequeña parte de mí</h1>
+            <p>Esta es una pequeña página sobre mis gustos, dedicada a algunas de las obras que se quedaron en mi corazón y a las que les tengo un gran cariño. Me faltaron bastantes, pero tampoco quiero que el sitio tenga 200 páginas, ¿cierto?..</p>
+        </section>
+
+        <section id="manga" class="container py-4">
+            <h2><span class="material-symbols-outlined" aria-hidden="true">menu_book</span> El mejor manga hecho por el ser humano</h2>
+            <article class="card mb-4">
+                <img src="img/Kishou%20Arima%20%26%20Kaneki%20Ken.jpg"
+                    class="card-img-top imagen-portada" alt="Kishou Arima y Ken Kaneki">
+                <div class="card-body">
+                    <h3 class="card-title">Tokyo Ghoul</h3>
+                    <p>Tokyo Ghoul narra la tragedia de Ken Kaneki, un estudiante que, tras sobrevivir a un ataque fatal, despierta como un híbrido mitad humano y mitad ghoul, criaturas que devoran personas para sobrevivir. Atrapado en medio de una guerra secreta entre ambas sociedades, Kaneki debe aprender a dominar sus nuevos instintos para proteger a los suyos sin perder su moralidad ni su cordura en el proceso.</p>
+                    <p class="fst-italic cita">«Yo no soy el que está equivocado, el mundo es el que está equivocado, yo... soy un ghoul.»</p>
+                    <p class="text-end">— Ken Kaneki.</p>
+                    <p><strong>Por qué elegí esta frase:</strong></p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTokyo">
+                        Leer más
+                    </button>
+                </div>
+            </article>
+        </section>
+
+        <section id="videojuegos" class="container py-4">
+            <h2><span class="material-symbols-outlined" aria-hidden="true">sports_esports</span> El mejor videojuego de papas luchones</h2>
+            <article class="card mb-4">
+                <img src="img/The%20Last%20of%20Us%20Part%20II%20Wallpaper.jpg"
+                    class="card-img-top imagen-portada" alt="Ellie y Joel en una imagen de The Last of Us Part II">
+                <div class="card-body">
+                    <h3 class="card-title">The Last of Us Part I</h3>
+                    <p>The Last of Us Parte 1 sigue el brutal y emocional viaje de Joel, un contrabandista endurecido por la tragedia, y Ellie, una adolescente que representa la única esperanza para curar una pandemia fúngica que devastó a la humanidad. Cruzando un Estados Unidos postapocalíptico, ambos forjan un vínculo inquebrantable mientras enfrentan tanto a criaturas mutantes como a la brutalidad de otros sobrevivientes, en una historia profunda sobre el amor, la pérdida y la supervivencia.</p>
+                    <p class="fst-italic cita">«Todas las personas a las que he querido han muerto o me han abandonado. Todas, excepto tú. Así que no me digas que estaría más segura con otra persona, porque la verdad es que tendría aún más miedo.»</p>
+                    <p class="text-end">— Ellie Williams.</p>
+                    <p><strong>Por qué elegí esta frase:</strong></p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTLOU">
+                        Leer más
+                    </button>
+                </div>
+            </article>
+        </section>
+
+        <section id="multimedia" class="container py-4">
+            <h2>Soy ese</h2>
+            <div class="row g-4 galeria">
+                <figure class="col-12 col-md-6">
+                    <img src="img/yoxd.jpg" class="img-fluid rounded"
+                        alt="Dibujo tipo meme de dos rostros sorprendidos sobre fondo verde">
+                    <figcaption>Una imagen del creador de este bodrio de página.</figcaption>
+                </figure>
+                <figure class="col-12 col-md-6">
+                    <figcaption>Una rolita para los chemicos como yo ("Pero sin copyright").</figcaption>
+                    <audio controls class="w-100">
+                        <source src="audio/bad-guys.mp3" type="audio/mpeg">
+                    </audio>
+                </figure>
+                <figure class="col-12 col-md-8 col-lg-6 mx-auto text-center mt-4">
+                    <video class="w-100 rounded" controls preload="metadata">
+                        <source src="video/prototipo-figma.mp4" type="video/mp4">
+                    </video>
+                    <figcaption>Un video de la primera práctica que realizamos en figma, también hay que poner algo de skills.</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal fade" id="modalTokyo" tabindex="-1" aria-labelledby="modalTokyoLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5" id="modalTokyoLabel">Tokyo Ghoul</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>[Elegí esta frase porque representa el punto de quiebre definitivo del personaje. Muestra el momento exacto en el que Kaneki deja de ser una víctima que se culpa a sí misma y comprende que la sociedad que lo rodea está rota por naturaleza. Es una reflexión cruda sobre cómo un entorno hostil te obliga a cambiar y perder tu inocencia simplemente para sobrevivir.]</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalTLOU" tabindex="-1" aria-labelledby="modalTLOULabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5" id="modalTLOULabel">The Last of Us Part I</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>[Elegí esta frase porque captura la esencia emocional de todo el viaje: encontrar un propósito en medio del caos total. Refleja cómo, a pesar de haberlo perdido todo, los personajes se aferran a la esperanza y a su vínculo humano, demostrando que sobrevivir un día más no sirve de nada si no tienes por qué o por quién luchar.]</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-personal py-4 mt-4">
+        <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+            <p class="mb-0">Copyright 2026- Sánchez Covarrubias Leonardo</p>
+            <a href="contacto.html">Ir a la página de contacto</a>
+        </div>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

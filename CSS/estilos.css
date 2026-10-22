@@ -1,0 +1,201 @@
+body {
+
+    background-color: #0a0a0b;
+
+    color: #e8e1d7;
+
+    font-family: "Cormorant Garamond", Georgia, serif;
+
+    font-size: 1.2rem;
+
+}
+
+h1 {
+
+    font-family: "Bitcount Ink", sans-serif;
+
+}
+
+
+
+h2,
+
+h3 {
+    font-family: "Jim Nightshade", cursive;
+        font-size: 3.2rem;
+
+}
+
+
+
+.navbar-personal {
+
+    background-color: #101317;
+
+}
+
+
+
+.navbar-personal .nav-link,
+
+.navbar-personal .navbar-brand {
+
+    color: #eee8df;
+
+}
+
+
+
+.navbar-personal .nav-link:hover {
+
+    color: #e28b78;
+
+}
+
+
+
+.footer-personal {
+
+    background-color: #101317;
+
+    color: #eee8df;
+
+}
+
+
+
+.footer-personal a {
+
+    color: #eaa18e;
+
+}
+
+
+
+main a {
+
+    color: #eaa18e;
+
+}
+
+
+
+main a:hover {
+
+    color: #f2c4a9;
+
+}
+
+
+
+#inicio {
+
+    margin-top: 2rem;
+
+    padding: 3rem;
+
+    border-radius: 1rem;
+
+    background: linear-gradient(135deg, #27453e, #38283b);
+
+    color: #fffaf0;
+
+}
+
+
+
+#inicio p {
+
+    max-width: 42rem;
+
+}
+
+
+
+.card {
+
+    border: 2px solid #75404a;
+
+    border-radius: 0.75rem;
+
+    overflow: hidden;
+
+    background-color: #24282e;
+
+    color: #eee8df;
+
+}
+
+
+
+.card .text-muted {
+
+    color: #c7c0b9 !important;
+
+}
+
+
+
+.imagen-portada {
+
+    max-height: 28rem;
+
+    object-fit: contain;
+
+    background-color: #111418;
+
+}
+
+
+
+.galeria img {
+
+    width: 100%;
+
+    max-height: 24rem;
+
+    object-fit: contain;
+
+    background-color: #24282e;
+
+}
+
+
+
+.cita {
+
+    font-family: "Tangerine", cursive;
+    font-size: 2.5rem; 
+    border-left: 4px solid #c65e68;
+    padding-left: 1rem;
+
+}
+
+
+
+.btn-primary {
+
+    background-color: #87414b;
+
+    border-color: #87414b;
+
+}
+
+
+
+.btn-primary:hover {
+
+    background-color: #6e303a;
+
+    border-color: #6e303a;
+
+}
+
+
+
+section {
+
+    scroll-margin-top: 1rem;
+
+} 
+
